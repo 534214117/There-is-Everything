@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "NSObject+Swizzling.h"
 
 @interface BaseViewController ()
 
@@ -86,6 +87,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc {
+    NSLog(@"%@ Dealloc", NSStringFromClass([self class]));
 }
 
 /*

@@ -11,6 +11,16 @@
 
 #import "ImageWaterfallFlowViewController.h"
 #import "JellyViewController.h"
+#import "FlowMenuAnimationViewController.h"
+#import "SpecialSearchBarViewController.h"
+#import "CardChoseViewController.h"
+#import "VisionDisparityViewController.h"
+#import "AnimationSwitchViewController.h"
+#import "ParticularlyPageTransitionViewController.h"
+#import "StarWarsViewController.h"
+#import "ShowDownloadAnimationViewController.h"
+#import "LayoutTransformViewController.h"
+
 
 
 #define CellID @"CustomCellID"
@@ -83,7 +93,7 @@
 
 - (void)setupDataSource {
     
-    self.dataArray = @[@"Presentation转场动画", @"NavigationPush转场动画", @"Jelly果冻下拉刷新"];
+    self.dataArray = @[@"Presentation转场动画", @"NavigationPush转场动画", @"Jelly果冻下拉刷新", @"滚珠菜单Animation", @"SpecialSearchBar展示", @"CardChooseAnimation", @"Vision Disparity视觉差滚动视图", @"AnimationSwitch动效开关", @"Particularly Page Transition Example", @"仿StarWars.iOS特效", @"Download Animation Custom View", @"UITableView Transfrom To UICollectionView"];
     [self.everythingTableView reloadData];
     
 }
@@ -175,6 +185,42 @@
         JellyViewController *vc = [[JellyViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
+    if (indexPath.row == 3) {
+        FlowMenuAnimationViewController *vc = [[FlowMenuAnimationViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 4) {
+        SpecialSearchBarViewController *vc = [[SpecialSearchBarViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 5) {
+        CardChoseViewController *vc = [[CardChoseViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 6) {
+        VisionDisparityViewController *vc = [[VisionDisparityViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 7) {
+        AnimationSwitchViewController *vc = [[AnimationSwitchViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 8) {
+        ParticularlyPageTransitionViewController *vc = [[ParticularlyPageTransitionViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 9) {
+        StarWarsViewController *vc = [[StarWarsViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 10) {
+        ShowDownloadAnimationViewController *vc = [[ShowDownloadAnimationViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 11) {
+        LayoutTransformViewController *vc = [[LayoutTransformViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 
@@ -194,6 +240,10 @@
 
 
 #pragma mark -- Super Method OverRide
+
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
 
 
 - (void)didReceiveMemoryWarning {

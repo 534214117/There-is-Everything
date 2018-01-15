@@ -40,9 +40,13 @@
 
 #define  K_ViewSafeAreInsets(view) ({UIEdgeInsets insets; if(@available(iOS 11.0, *)) {insets = view.safeAreaInsets;} else {insets = UIEdgeInsetsZero;} insets;})
 
+#define WeakObj(o) try{}@finally{} __weak typeof(o) o##Weak = o
 
 #define RGB(R,G,B) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1]
+#define HEXColor(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
 #define DefualtMargin 20
+
+#define FlowMenuCellHeight 280
 
 
 #endif /* PrefixHeader_pch */

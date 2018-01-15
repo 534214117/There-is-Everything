@@ -69,7 +69,7 @@
 
 - (void)setupReferencePointView {
     self.referencePointView = [[UIView alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.frame)/2.f-2, CGRectGetMaxY(self.frame)-2, 4, 4)];
-    self.referencePointView.backgroundColor = [UIColor redColor];
+    self.referencePointView.backgroundColor = [UIColor clearColor];
     [self addSubview:self.referencePointView];
 }
 
