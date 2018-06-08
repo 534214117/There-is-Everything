@@ -15,6 +15,7 @@
 #import "BaseTableView.h"
 #import "BaseCollectionView.h"
 #import "BaseScrollView.h"
+#import "AppDelegate.h"
 
 
 #define  KSCreenWidth   [[UIScreen mainScreen] bounds].size.width
@@ -27,7 +28,7 @@
 #define  K_StatusBarHeight      (K_iPhoneX ? 44.f : 20.f)
 
 // Navigation bar height.
-#define  K_NavigationBarHeight  44.f
+#define  K_NavigationBarHeight  (K_iPhoneX ? 88.f : 64.f)
 
 // Tabbar height.
 #define  K_TabbarHeight         (K_iPhoneX ? (49.f+34.f) : 49.f)
@@ -47,6 +48,8 @@
 #define DefualtMargin 20
 
 #define FlowMenuCellHeight 280
+
+#define GetAppDelegate  ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
 
 #endif /* PrefixHeader_pch */

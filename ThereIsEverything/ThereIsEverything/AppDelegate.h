@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FloatingDetailViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+//存储，避免释放、二次重新加载。push时调用self.detailViewController
+@property (nonatomic, strong) FloatingDetailViewController *detailViewController;
+@property (nonatomic, strong) FloatingDetailViewController *tempDetailViewController;
 
 
 @end

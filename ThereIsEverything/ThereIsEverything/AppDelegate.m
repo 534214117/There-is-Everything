@@ -8,8 +8,11 @@
 
 #import "AppDelegate.h"
 #import "ThereIsEverythingViewController.h"
+#import "FloatingWindow.h"
+#import "FloatingControlView.h"
+#import "TencentDingDangTest.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <FloatingControlDelegate>
 
 @end
 
@@ -22,10 +25,56 @@
     [self.window setRootViewController:[[UINavigationController alloc] initWithRootViewController:[[ThereIsEverythingViewController alloc] init]]];
     [self.window makeKeyAndVisible];
     
+    [FloatingControlView shareFloatingControlView].delegate = self;
+    [FloatingWindow shareFloatingWindow].delegate = [FloatingControlView shareFloatingControlView];
+    
     // Override point for customization after application launch.
     return YES;
 }
 
+
+#pragma mark - FloatingControlDelegate
+
+- (void)didContain:(BOOL)isCache {
+    if (isCache) {
+        self.detailViewController = self.tempDetailViewController;
+        self.tempDetailViewController = nil;
+    }
+    else {
+        self.detailViewController = nil;
+        self.tempDetailViewController = nil;
+    }
+}
+
+//获取当前屏幕显示的viewcontroller
+- (UIViewController *)getCurrentVC
+{
+    UIViewController *result = nil;
+    
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if (window.windowLevel != UIWindowLevelNormal)
+    {
+        NSArray *windows = [[UIApplication sharedApplication] windows];
+        for(UIWindow * tmpWin in windows)
+        {
+            if (tmpWin.windowLevel == UIWindowLevelNormal)
+            {
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    
+    UIView *frontView = [[window subviews] objectAtIndex:0];
+    id nextResponder = [frontView nextResponder];
+    
+    if ([nextResponder isKindOfClass:[UIViewController class]])
+        result = nextResponder;
+    else
+        result = window.rootViewController;
+    
+    return result;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

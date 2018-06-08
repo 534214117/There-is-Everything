@@ -20,6 +20,9 @@
 #import "StarWarsViewController.h"
 #import "ShowDownloadAnimationViewController.h"
 #import "LayoutTransformViewController.h"
+#import "ContainerViewController.h"
+#import "FloatingTableViewController.h"
+#import "MasonryLearningViewController.h"
 
 
 
@@ -93,7 +96,7 @@
 
 - (void)setupDataSource {
     
-    self.dataArray = @[@"Presentation转场动画", @"NavigationPush转场动画", @"Jelly果冻下拉刷新", @"滚珠菜单Animation", @"SpecialSearchBar展示", @"CardChooseAnimation", @"Vision Disparity视觉差滚动视图", @"AnimationSwitch动效开关", @"Particularly Page Transition Example", @"仿StarWars.iOS特效", @"Download Animation Custom View", @"UITableView Transfrom To UICollectionView"];
+    self.dataArray = @[@"Presentation转场动画", @"NavigationPush转场动画", @"Jelly果冻下拉刷新", @"滚珠菜单Animation", @"SpecialSearchBar展示", @"CardChooseAnimation", @"Vision Disparity视觉差滚动视图", @"AnimationSwitch动效开关", @"Particularly Page Transition Example", @"仿StarWars.iOS特效", @"Download Animation Custom View", @"UITableView Transfrom To UICollectionView", @"Awesome Calendar Picker 炫酷日历选择器", @"仿微信朋友圈 Floating Window", @"Masonry Learning"];
     [self.everythingTableView reloadData];
     
 }
@@ -158,16 +161,26 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CATransform3D transform = CATransform3DIdentity;
-    transform = CATransform3DRotate(transform, 0, 0, 0, 1);//渐变
-    transform = CATransform3DTranslate(transform, -200, 0, 0);//左边水平移动
-    transform = CATransform3DScale(transform, 0, 0, 0);//由小变大
-    cell.layer.transform = transform;
-    cell.layer.opacity = 0.0;
-    [UIView animateWithDuration:0.6 animations:^{
-        cell.layer.transform = CATransform3DIdentity;
-        cell.layer.opacity = 1;
-    }];
+//    CATransform3D transform = CATransform3DIdentity;
+//    transform = CATransform3DRotate(transform, 0, 0, 0, 1);//渐变
+//    transform = CATransform3DTranslate(transform, -200, 0, 0);//左边水平移动
+//    transform = CATransform3DScale(transform, 0, 0, 0);//由小变大
+//    cell.layer.transform = transform;
+//    cell.layer.opacity = 0.0;
+//    [UIView animateWithDuration:0.6 animations:^{
+//        cell.layer.transform = CATransform3DIdentity;
+//        cell.layer.opacity = 1;
+//    }];
+    
+//    CGRect originFrame = cell.frame;
+//    CGRect frame = cell.frame;
+//    frame.origin.x = frame.size.width;
+//    cell.frame = frame;
+//
+//    NSTimeInterval duration = 0.1 + (NSTimeInterval)(indexPath.row) / 10.0;
+//    [UIView animateWithDuration:duration animations:^{
+//        cell.frame = originFrame;
+//    } completion:nil];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -219,6 +232,18 @@
     }
     if (indexPath.row == 11) {
         LayoutTransformViewController *vc = [[LayoutTransformViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 12) {
+        ContainerViewController *vc = [[ContainerViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 13) {
+        FloatingTableViewController *vc = [[FloatingTableViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 14) {
+        MasonryLearningViewController *vc = [[MasonryLearningViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E4DDB5569B5B4F0D5D0131D /* libPods-ThereIsEverything.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AFA17E23965C27C8F98F625 /* libPods-ThereIsEverything.a */; };
+		E307421C200DCD4000F29758 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E307421B200DCD4000F29758 /* ContainerViewController.m */; };
+		E3074220200DCDB500F29758 /* SoniaCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = E307421F200DCDB500F29758 /* SoniaCalendar.m */; };
+		E3074224200E114400F29758 /* CalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3074223200E114400F29758 /* CalendarCollectionViewCell.m */; };
 		E31234C720071D010062CEED /* LayoutTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E31234C620071D010062CEED /* LayoutTransformViewController.m */; };
 		E31234CC20072E5E0062CEED /* UIImage+UIImageMore.m in Sources */ = {isa = PBXBuildFile; fileRef = E31234CB20072E5E0062CEED /* UIImage+UIImageMore.m */; };
 		E31234D2200754290062CEED /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = E31234D1200754290062CEED /* NSObject+Swizzling.m */; };
@@ -16,6 +20,8 @@
 		E32104301FB971FD00398337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E321042F1FB971FD00398337 /* main.m */; };
 		E32104501FB985ED00398337 /* ResponsiveTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E321044F1FB985ED00398337 /* ResponsiveTableViewHeaderView.m */; };
 		E32104521FB985FB00398337 /* BigWidth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E32104511FB985FB00398337 /* BigWidth.jpg */; };
+		E35017F520BF997D00B3487C /* FloatingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E35017F420BF997D00B3487C /* FloatingDetailViewController.m */; };
+		E35017FC20BFADA500B3487C /* FloatingPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E35017FB20BFADA500B3487C /* FloatingPopTransition.m */; };
 		E356A8051FC7F6690094104F /* AnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E356A8041FC7F6690094104F /* AnimationButton.m */; };
 		E36B8E1D1FC28F130014B4E5 /* ImageAnimatePresentationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E36B8E1C1FC28F130014B4E5 /* ImageAnimatePresentationTransition.m */; };
 		E37519FA1FBD3CE7000CB0E7 /* ImageAnimateNavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E37519F91FBD3CE7000CB0E7 /* ImageAnimateNavigationTransition.m */; };
@@ -121,6 +127,9 @@
 		E3C19A162004967A002D054D /* StarWarsProfleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C19A152004967A002D054D /* StarWarsProfleViewController.m */; };
 		E3C19A1A20049731002D054D /* StarWarsTransitionPresenting.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C19A1920049731002D054D /* StarWarsTransitionPresenting.m */; };
 		E3C19A1D20049E0B002D054D /* StarWarsTransitionDismissing.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C19A1C20049E0B002D054D /* StarWarsTransitionDismissing.m */; };
+		E3C5E4C920BE9DB400210C98 /* FloatingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5E4C820BE9DB400210C98 /* FloatingTableViewController.m */; };
+		E3C5E4CD20BE9E6E00210C98 /* FloatingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5E4CC20BE9E6E00210C98 /* FloatingWindow.m */; };
+		E3C5E4D120BEA39500210C98 /* FloatingControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C5E4D020BEA39500210C98 /* FloatingControlView.m */; };
 		E3CFA2FB1FF0D6C600F97741 /* ParticularlyPageTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CFA2FA1FF0D6C600F97741 /* ParticularlyPageTransitionViewController.m */; };
 		E3CFA2FF1FF0D79800F97741 /* HexagonView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CFA2FE1FF0D79800F97741 /* HexagonView.m */; };
 		E3CFA3071FF0F51D00F97741 /* hexagon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CFA3041FF0F51D00F97741 /* hexagon1.png */; };
@@ -132,9 +141,20 @@
 		E3D804521FBAD66700891AE7 /* ImageWaterfallFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D804511FBAD66700891AE7 /* ImageWaterfallFlowViewController.m */; };
 		E3D8C77B1FCC10490057D8EB /* NavigationSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D8C77A1FCC10490057D8EB /* NavigationSearchBarView.m */; };
 		E3D8C77D1FCC1C1E0057D8EB /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E3D8C77C1FCC1C1E0057D8EB /* close.png */; };
+		E3F7993920C7B3DC00DA9856 /* MasonryLearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F7993820C7B3DC00DA9856 /* MasonryLearningViewController.m */; };
+		E3FE8B43202A9DA900749790 /* TencentDingDangTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FE8B42202A9DA900749790 /* TencentDingDangTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AFA17E23965C27C8F98F625 /* libPods-ThereIsEverything.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThereIsEverything.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECAAECB64E5B3E1F3D499C5 /* Pods-ThereIsEverything.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThereIsEverything.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThereIsEverything/Pods-ThereIsEverything.debug.xcconfig"; sourceTree = "<group>"; };
+		889AD697DF2FC76F74BEEE49 /* Pods-ThereIsEverything.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThereIsEverything.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThereIsEverything/Pods-ThereIsEverything.release.xcconfig"; sourceTree = "<group>"; };
+		E307421A200DCD4000F29758 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		E307421B200DCD4000F29758 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		E307421E200DCDB500F29758 /* SoniaCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoniaCalendar.h; sourceTree = "<group>"; };
+		E307421F200DCDB500F29758 /* SoniaCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoniaCalendar.m; sourceTree = "<group>"; };
+		E3074222200E114400F29758 /* CalendarCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		E3074223200E114400F29758 /* CalendarCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarCollectionViewCell.m; sourceTree = "<group>"; };
 		E31234C520071D010062CEED /* LayoutTransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutTransformViewController.h; sourceTree = "<group>"; };
 		E31234C620071D010062CEED /* LayoutTransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutTransformViewController.m; sourceTree = "<group>"; };
 		E31234CA20072E5E0062CEED /* UIImage+UIImageMore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageMore.h"; sourceTree = "<group>"; };
@@ -153,6 +173,10 @@
 		E321044E1FB985ED00398337 /* ResponsiveTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsiveTableViewHeaderView.h; sourceTree = "<group>"; };
 		E321044F1FB985ED00398337 /* ResponsiveTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsiveTableViewHeaderView.m; sourceTree = "<group>"; };
 		E32104511FB985FB00398337 /* BigWidth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BigWidth.jpg; sourceTree = "<group>"; };
+		E35017F320BF997D00B3487C /* FloatingDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingDetailViewController.h; sourceTree = "<group>"; };
+		E35017F420BF997D00B3487C /* FloatingDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingDetailViewController.m; sourceTree = "<group>"; };
+		E35017FA20BFADA500B3487C /* FloatingPopTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingPopTransition.h; sourceTree = "<group>"; };
+		E35017FB20BFADA500B3487C /* FloatingPopTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingPopTransition.m; sourceTree = "<group>"; };
 		E356A8031FC7F6690094104F /* AnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationButton.h; sourceTree = "<group>"; };
 		E356A8041FC7F6690094104F /* AnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationButton.m; sourceTree = "<group>"; };
 		E36B8E1B1FC28F130014B4E5 /* ImageAnimatePresentationTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAnimatePresentationTransition.h; sourceTree = "<group>"; };
@@ -301,6 +325,12 @@
 		E3C19A1920049731002D054D /* StarWarsTransitionPresenting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsTransitionPresenting.m; sourceTree = "<group>"; };
 		E3C19A1B20049E0B002D054D /* StarWarsTransitionDismissing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsTransitionDismissing.h; sourceTree = "<group>"; };
 		E3C19A1C20049E0B002D054D /* StarWarsTransitionDismissing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsTransitionDismissing.m; sourceTree = "<group>"; };
+		E3C5E4C720BE9DB400210C98 /* FloatingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingTableViewController.h; sourceTree = "<group>"; };
+		E3C5E4C820BE9DB400210C98 /* FloatingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingTableViewController.m; sourceTree = "<group>"; };
+		E3C5E4CB20BE9E6E00210C98 /* FloatingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingWindow.h; sourceTree = "<group>"; };
+		E3C5E4CC20BE9E6E00210C98 /* FloatingWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingWindow.m; sourceTree = "<group>"; };
+		E3C5E4CF20BEA39500210C98 /* FloatingControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatingControlView.h; sourceTree = "<group>"; };
+		E3C5E4D020BEA39500210C98 /* FloatingControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingControlView.m; sourceTree = "<group>"; };
 		E3CFA2F91FF0D6C600F97741 /* ParticularlyPageTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticularlyPageTransitionViewController.h; sourceTree = "<group>"; };
 		E3CFA2FA1FF0D6C600F97741 /* ParticularlyPageTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParticularlyPageTransitionViewController.m; sourceTree = "<group>"; };
 		E3CFA2FD1FF0D79800F97741 /* HexagonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HexagonView.h; sourceTree = "<group>"; };
@@ -319,6 +349,10 @@
 		E3D8C7791FCC10490057D8EB /* NavigationSearchBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationSearchBarView.h; sourceTree = "<group>"; };
 		E3D8C77A1FCC10490057D8EB /* NavigationSearchBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSearchBarView.m; sourceTree = "<group>"; };
 		E3D8C77C1FCC1C1E0057D8EB /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E3F7993720C7B3DC00DA9856 /* MasonryLearningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryLearningViewController.h; sourceTree = "<group>"; };
+		E3F7993820C7B3DC00DA9856 /* MasonryLearningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryLearningViewController.m; sourceTree = "<group>"; };
+		E3FE8B41202A9DA900749790 /* TencentDingDangTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TencentDingDangTest.h; sourceTree = "<group>"; };
+		E3FE8B42202A9DA900749790 /* TencentDingDangTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentDingDangTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,12 +361,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A75E1D1FE0EF3600B4B679 /* Photos.framework in Frameworks */,
+				7E4DDB5569B5B4F0D5D0131D /* libPods-ThereIsEverything.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17506F5F59283612291A9B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECAAECB64E5B3E1F3D499C5 /* Pods-ThereIsEverything.debug.xcconfig */,
+				889AD697DF2FC76F74BEEE49 /* Pods-ThereIsEverything.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3074219200DCC7C00F29758 /* CoolCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E307421A200DCD4000F29758 /* ContainerViewController.h */,
+				E307421B200DCD4000F29758 /* ContainerViewController.m */,
+				E307421D200DCD4C00F29758 /* Views */,
+				E3074221200E112B00F29758 /* Cells */,
+			);
+			path = CoolCalendar;
+			sourceTree = "<group>";
+		};
+		E307421D200DCD4C00F29758 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E307421E200DCDB500F29758 /* SoniaCalendar.h */,
+				E307421F200DCDB500F29758 /* SoniaCalendar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E3074221200E112B00F29758 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E3074222200E114400F29758 /* CalendarCollectionViewCell.h */,
+				E3074223200E114400F29758 /* CalendarCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		E31234C420071CD80062CEED /* UITableViewToUICollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +437,7 @@
 				E321041F1FB971FD00398337 /* ThereIsEverything */,
 				E321041E1FB971FD00398337 /* Products */,
 				E3A75E1B1FE0EF3500B4B679 /* Frameworks */,
+				17506F5F59283612291A9B06 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +478,8 @@
 		E321043C1FB974FE00398337 /* Program Entry */ = {
 			isa = PBXGroup;
 			children = (
+				E3F7993620C7B3B200DA9856 /* MasonryLearning */,
+				E3AB4B1B20BE9B1A00422459 /* WXRetentionFloatingWindow */,
 				E32104491FB985A600398337 /* ThereIsEverything */,
 				E3D8044F1FBAD51D00891AE7 /* TransitionAnimation */,
 				E38D380E1FC3E651003102BF /* JellyRefreshing */,
@@ -416,6 +492,7 @@
 				E3C19A0C20047695002D054D /* StarWars */,
 				E3B720EA2005EA2D00CCF922 /* DownloadAnimationView */,
 				E31234C420071CD80062CEED /* UITableViewToUICollectionView */,
+				E3074219200DCC7C00F29758 /* CoolCalendar */,
 			);
 			name = "Program Entry";
 			sourceTree = "<group>";
@@ -447,6 +524,15 @@
 				E321044F1FB985ED00398337 /* ResponsiveTableViewHeaderView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E35017F620BFA7FC00B3487C /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				E35017FA20BFADA500B3487C /* FloatingPopTransition.h */,
+				E35017FB20BFADA500B3487C /* FloatingPopTransition.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 		E36B8E1A1FC283E00014B4E5 /* AnimatePresentTransition */ = {
@@ -710,8 +796,23 @@
 			isa = PBXGroup;
 			children = (
 				E3A75E1C1FE0EF3600B4B679 /* Photos.framework */,
+				1AFA17E23965C27C8F98F625 /* libPods-ThereIsEverything.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3AB4B1B20BE9B1A00422459 /* WXRetentionFloatingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				E35017F620BFA7FC00B3487C /* Transition */,
+				E3C5E4CE20BEA0E800210C98 /* FloatingControlView */,
+				E3C5E4CA20BE9E4C00210C98 /* FloatingWindowView */,
+				E3C5E4C720BE9DB400210C98 /* FloatingTableViewController.h */,
+				E3C5E4C820BE9DB400210C98 /* FloatingTableViewController.m */,
+				E35017F320BF997D00B3487C /* FloatingDetailViewController.h */,
+				E35017F420BF997D00B3487C /* FloatingDetailViewController.m */,
+			);
+			path = WXRetentionFloatingWindow;
 			sourceTree = "<group>";
 		};
 		E3AFB15D1FD52BAF00982DD0 /* Model */ = {
@@ -845,6 +946,8 @@
 		E3BF88C11FD682C00046CBC1 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				E3FE8B41202A9DA900749790 /* TencentDingDangTest.h */,
+				E3FE8B42202A9DA900749790 /* TencentDingDangTest.m */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -878,6 +981,24 @@
 				E3C19A1C20049E0B002D054D /* StarWarsTransitionDismissing.m */,
 			);
 			path = TransitionDelegate;
+			sourceTree = "<group>";
+		};
+		E3C5E4CA20BE9E4C00210C98 /* FloatingWindowView */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5E4CB20BE9E6E00210C98 /* FloatingWindow.h */,
+				E3C5E4CC20BE9E6E00210C98 /* FloatingWindow.m */,
+			);
+			path = FloatingWindowView;
+			sourceTree = "<group>";
+		};
+		E3C5E4CE20BEA0E800210C98 /* FloatingControlView */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5E4CF20BEA39500210C98 /* FloatingControlView.h */,
+				E3C5E4D020BEA39500210C98 /* FloatingControlView.m */,
+			);
+			path = FloatingControlView;
 			sourceTree = "<group>";
 		};
 		E3CFA2F81FF0D65200F97741 /* ParticularlyPageTransition */ = {
@@ -963,6 +1084,15 @@
 			path = CardChoseAnimation;
 			sourceTree = "<group>";
 		};
+		E3F7993620C7B3B200DA9856 /* MasonryLearning */ = {
+			isa = PBXGroup;
+			children = (
+				E3F7993720C7B3DC00DA9856 /* MasonryLearningViewController.h */,
+				E3F7993820C7B3DC00DA9856 /* MasonryLearningViewController.m */,
+			);
+			path = MasonryLearning;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -970,9 +1100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E32104331FB971FD00398337 /* Build configuration list for PBXNativeTarget "ThereIsEverything" */;
 			buildPhases = (
+				03AA0084AD2BE8FF644837C2 /* [CP] Check Pods Manifest.lock */,
 				E32104191FB971FD00398337 /* Sources */,
 				E321041A1FB971FD00398337 /* Frameworks */,
 				E321041B1FB971FD00398337 /* Resources */,
+				1787D286294E7CC1A04F7022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1093,19 +1225,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03AA0084AD2BE8FF644837C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThereIsEverything-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1787D286294E7CC1A04F7022 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThereIsEverything/Pods-ThereIsEverything-resources.sh",
+				"${PODS_ROOT}/KVNProgress/KVNProgress/Resources/KVNProgressView.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KVNProgressView.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThereIsEverything/Pods-ThereIsEverything-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E32104191FB971FD00398337 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E38D38111FC3E880003102BF /* JellyViewController.m in Sources */,
+				E3FE8B43202A9DA900749790 /* TencentDingDangTest.m in Sources */,
 				E3AFB1591FD5297B00982DD0 /* CardChooseView.m in Sources */,
 				E38D38151FC3EC97003102BF /* JellyCustomNavigationBar.m in Sources */,
 				E3BAA8681FC5711700693AEE /* FlowMenuTableViewCell.m in Sources */,
 				E38BAE401FF4C7B5008D3307 /* ParticularlyPresentTransition.m in Sources */,
 				E38DAE881FCE651100F8F84F /* CardChoseViewController.m in Sources */,
+				E3F7993920C7B3DC00DA9856 /* MasonryLearningViewController.m in Sources */,
 				E3BAA85F1FC56E7F00693AEE /* FlowMenuAnimationViewController.m in Sources */,
 				E31234D2200754290062CEED /* NSObject+Swizzling.m in Sources */,
+				E3C5E4CD20BE9E6E00210C98 /* FloatingWindow.m in Sources */,
 				E38BAE441FF4C7F6008D3307 /* DetailParticularlyViewController.m in Sources */,
 				E31234CC20072E5E0062CEED /* UIImage+UIImageMore.m in Sources */,
 				E38BAE3D1FF4C573008D3307 /* UILabel+UILabelMore.m in Sources */,
@@ -1118,6 +1292,7 @@
 				E3AFB15C1FD52B2200982DD0 /* CustomCardView.m in Sources */,
 				E3B1103C1FFB49AD0005B7E3 /* ParticularlyDismissTransition.m in Sources */,
 				E36B8E1D1FC28F130014B4E5 /* ImageAnimatePresentationTransition.m in Sources */,
+				E3074224200E114400F29758 /* CalendarCollectionViewCell.m in Sources */,
 				E3A75E1A1FE0EAA500B4B679 /* VisionDisparityTableViewCell.m in Sources */,
 				E3B70EBB1FEB7EA300A8918C /* AnimationSwitchViewController.m in Sources */,
 				E378502E1FCBE3E500ED12BB /* UIBezierPath+AnimationPathway.m in Sources */,
@@ -1125,9 +1300,14 @@
 				E38DAEA11FCE9B2E00F8F84F /* MenuScrollView.m in Sources */,
 				E356A8051FC7F6690094104F /* AnimationButton.m in Sources */,
 				E3D804491FBAC05D00891AE7 /* BaseViewController.m in Sources */,
+				E3074220200DCDB500F29758 /* SoniaCalendar.m in Sources */,
 				E3CFA2FF1FF0D79800F97741 /* HexagonView.m in Sources */,
+				E3C5E4D120BEA39500210C98 /* FloatingControlView.m in Sources */,
+				E35017F520BF997D00B3487C /* FloatingDetailViewController.m in Sources */,
 				E3C19A0F200476BD002D054D /* StarWarsViewController.m in Sources */,
+				E35017FC20BFADA500B3487C /* FloatingPopTransition.m in Sources */,
 				E3BAA8641FC5701D00693AEE /* FlowMenuModel.m in Sources */,
+				E307421C200DCD4000F29758 /* ContainerViewController.m in Sources */,
 				E32104221FB971FD00398337 /* AppDelegate.m in Sources */,
 				E380E8741FBC3510006E3F9F /* UICollectionViewResortGesture.m in Sources */,
 				E380E7DB1FBC057D006E3F9F /* ImageModel.m in Sources */,
@@ -1143,6 +1323,7 @@
 				E3751A001FBD555E000CB0E7 /* ImageAnimateNavigationPopTransition.m in Sources */,
 				E32104501FB985ED00398337 /* ResponsiveTableViewHeaderView.m in Sources */,
 				E3AFB1601FD52BBF00982DD0 /* CustomCardModel.m in Sources */,
+				E3C5E4C920BE9DB400210C98 /* FloatingTableViewController.m in Sources */,
 				E38BAE341FF49A5E008D3307 /* ParticularlyTableViewCell.m in Sources */,
 				E380E7DF1FBC0C9F006E3F9F /* ImageCollectionViewCell.m in Sources */,
 				E380E7D71FBBEA42006E3F9F /* UICollectionViewWaterfallLayout.m in Sources */,
@@ -1267,35 +1448,37 @@
 		};
 		E32104341FB971FD00398337 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECAAECB64E5B3E1F3D499C5 /* Pods-ThereIsEverything.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EUHNHTZ938;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/ThereIsEverything/PrefixHeader.pch";
 				INFOPLIST_FILE = ThereIsEverything/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.ThereIsEverything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E32104351FB971FD00398337 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889AD697DF2FC76F74BEEE49 /* Pods-ThereIsEverything.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = EUHNHTZ938;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/ThereIsEverything/PrefixHeader.pch";
 				INFOPLIST_FILE = ThereIsEverything/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Mine.ThereIsEverything;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -74,8 +74,6 @@
     [maskStartBP addLineToPoint:CGPointMake((sin(M_1_PI / 180 * 60)) * (viewWidth / 2) + startX, (viewWidth / 2) + (viewWidth / 4) + startY)];
     [maskStartBP closePath];
     
-    
-    
     startX = CGRectGetMinX(frame)+20;
     startY = CGRectGetMinY(frame)+MarginTop/2.;
     viewWidth = CellHeight-MarginTop;
